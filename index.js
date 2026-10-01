@@ -1,6 +1,5 @@
 // Simple contact form handler
 document.addEventListener('DOMContentLoaded', function() {
-<<<<<<< HEAD
     const menuToggle = document.querySelector('.menu-toggle');
     const navigation = document.getElementById('primary-navigation');
 
@@ -34,9 +33,6 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     }
-
-=======
->>>>>>> 4cd6597a46b52dbf8df18ffc366454667376e57f
     const contactForm = document.getElementById('contactForm');
     if (contactForm) {
         contactForm.addEventListener('submit', function(e) {
